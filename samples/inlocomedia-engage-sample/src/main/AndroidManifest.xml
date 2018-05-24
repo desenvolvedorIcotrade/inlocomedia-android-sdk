@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.inlocomedia.android.engagement.sample"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-sdk tools:overrideLibrary="com.inlocomedia.mediation, com.inlocomedia.android"/>
+
+    <!-- Required Permissions -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <!-- Recommended: To resume operating when the user restarts the phone -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <!-- Recommended: To improve location accuracy -->
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION"/>
+
+    <!-- Optional: To vibrate the phone for the incoming notification -->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <!-- Unrelated -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".EngageApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme">
+        <activity
+            android:name=".activities.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <action android:name="android.intent.action.VIEW"/>
+
+                <data
+                    android:host="engagement.com"
+                    android:scheme="inloco_engagement"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.OnboardingActivity"
+            android:label="@string/title_activity_onboarding"
+            android:theme="@style/OnboardingTheme"/>
+
+        <activity
+            android:name=".activities.NotificationsActivity"/>
+
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:label="@string/title_activity_settings">
+        </activity>
+
+        <activity
+            android:name=".activities.TroubleshootingActivity"
+            android:label="@string/title_activity_troubleshooting"/>
+
+        <receiver
+            android:name=".receivers.InstallReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+
+        <!--In Loco Engage SDK Import -->
+
+        <receiver
+            android:name="com.inlocomedia.android.location.LocationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.AIRPLANE_MODE"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Activity-specific themes -->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimary</item>
+
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="OnboardingTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <!-- Application-wide themes -->
+    <style name="CustomActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:toolbarStyle">@style/MyToolbar</item>
+        <item name="android:background">@android:color/white</item>
+
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimary</item>
+    </style>
+
+    <style name="MyToolbar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:minHeight">?android:attr/actionBarSize</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+</resources>

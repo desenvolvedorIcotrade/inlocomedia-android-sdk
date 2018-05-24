@@ -1,57 +1,32 @@
+/*
+ * build.gradle
+ * Copyright (c) 2017 InLocoMedia.
+ * All rights reserved.
+ */
+
+project.ext.moduleName = "ads"
+
 apply plugin: 'com.android.application'
+apply from: '../samples-shared-build.gradle'
 
 dependencies {
 
-    // Required
-    compile 'com.inlocomedia.android:android-sdk:3.5.+'
+      // Required
+    compile "com.inlocomedia.android:android-sdk:$libraries.inLocoMediaSdkVersion"
 
     // Required
-    compile 'com.android.support:support-v4:25.3.1'
+    compile "com.android.support:support-v4:$libraries.androidSupportVersion"
 
     // Required: Access GooglePlayServices advertising id
-    compile 'com.google.android.gms:play-services-ads:10.2.1'
+    compile "com.google.android.gms:play-services-ads:$libraries.googlePlayServicesVersion"
 
     // Required for Notification Ads, Optional for additional Ad targeting
-    compile 'com.google.android.gms:play-services-location:10.2.1'
+    compile "com.google.android.gms:play-services-location:$libraries.googlePlayServicesVersion"
 
     // AdFeed dependencies
     // Optional: Used for AdFeedRecyclerViewAdapter
-    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile "com.android.support:recyclerview-v7:$libraries.androidSupportVersion"
 
     // Optional: Used for AdFeedRecyclerViewAdapter
-    compile 'com.android.support:appcompat-v7:25.3.1'
-
-}
-
-android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
-
-    defaultConfig {
-        applicationId "com.inlocomedia.ads.sample"
-        minSdkVersion 14
-        targetSdkVersion 25
-    }
-
-    buildTypes {
-        release {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.debug
-        }
-        debug {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
-
-    sourceSets {
-        instrumentTest.setRoot('tests')
-        debug.setRoot('build-types/debug')
-        release.setRoot('build-types/release')
-    }
-
-    lintOptions {
-        abortOnError false
-    }
+    compile "com.android.support:appcompat-v7:$libraries.androidSupportVersion"
 }

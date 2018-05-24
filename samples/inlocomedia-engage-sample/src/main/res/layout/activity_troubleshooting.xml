@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="requirements"
+            type="com.inlocomedia.android.engagement.sample.ui.view_models.RequirementStatus" />
+    </data>
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.inlocomedia.android.engagement.sample.activities.TroubleshootingActivity">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/troubleshooting_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:elevation="2dp"
+            app:titleTextColor="@color/colorPrimary"
+            app:titleTextAppearance="?android:textAppearanceSmall" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/margin_triple"
+            android:paddingLeft="@dimen/margin_triple"
+            android:paddingRight="@dimen/margin_triple"
+            android:clipToPadding="false">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/verify_requirements"
+                    android:layout_marginBottom="@dimen/margin"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/margin"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:background="@color/grey_divider" />
+
+                <CheckedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/margin_double"
+                    android:paddingBottom="@dimen/margin_double"
+                    android:gravity="center_vertical"
+                    android:text="@string/device_registered"
+                    android:textColor="@color/gray_text"
+                    android:checkMark="@drawable/requirements_checkbox"
+                    android:clickable="false"
+                    android:checked="@{requirements.deviceRegistered}"/>
+
+                <CheckedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/margin_double"
+                    android:paddingBottom="@dimen/margin_double"
+                    android:gravity="center_vertical"
+                    android:text="@string/location_enabled"
+                    android:textColor="@color/gray_text"
+                    android:checkMark="@drawable/requirements_checkbox"
+                    android:clickable="false"
+                    android:checked="@{requirements.locationEnabled}"/>
+
+                <CheckedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/margin_double"
+                    android:paddingBottom="@dimen/margin_double"
+                    android:gravity="center_vertical"
+                    android:text="@string/wifi_activated"
+                    android:textColor="@color/gray_text"
+                    android:checkMark="@drawable/requirements_checkbox"
+                    android:clickable="false"
+                    android:checked="@{requirements.wiFiAvailable}"/>
+
+                <CheckedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/margin_double"
+                    android:paddingBottom="@dimen/margin_double"
+                    android:gravity="center_vertical"
+                    android:text="@string/internet_available"
+                    android:textColor="@color/gray_text"
+                    android:checkMark="@drawable/requirements_checkbox"
+                    android:clickable="false"
+                    android:checked="@{requirements.connectivityAvailable}"/>
+
+                <CheckedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/margin_double"
+                    android:paddingBottom="@dimen/margin_double"
+                    android:gravity="center_vertical"
+                    android:text="@string/permissions_accepted"
+                    android:textColor="@color/gray_text"
+                    android:checkMark="@drawable/requirements_checkbox"
+                    android:clickable="false"
+                    android:checked="@{requirements.permissionsAccepted}"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/margin"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:background="@color/grey_divider" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin"
+                    android:text="@string/contact_us"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_double"
+                    android:text="@string/contact_us_btn"
+                    android:textColor="@color/colorPrimary"
+                    android:background="@android:color/transparent"
+                    android:onClick="openContact" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</layout>

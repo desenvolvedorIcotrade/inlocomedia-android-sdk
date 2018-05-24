@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/gray_background"
+              android:fitsSystemWindows="true">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/notifications_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/actionBarSize"
+        android:elevation="2dp" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/notifications_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/margin_double"
+                android:paddingLeft="@dimen/margin_double"
+                android:paddingRight="@dimen/margin_double"
+                android:paddingBottom="@dimen/margin"
+                android:clipToPadding="false"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_your_notifications"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/your_notifications"
+                android:drawableTop="@drawable/ic_empty_notifications"
+                android:drawablePadding="@dimen/margin_triple"/>
+        </FrameLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

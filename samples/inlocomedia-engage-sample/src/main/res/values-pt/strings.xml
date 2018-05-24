@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ strings.xml
+  ~ Copyright (c) 2017 InLocoMedia.
+  ~ All rights reserved.
+  -->
+
+<resources>
+    <string name="app_name">In Loco Engage</string>
+
+    <string name="use_account">USAR MINHA CONTA</string>
+    <string name="without_account">TESTAR SEM CADASTRO</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="title_activity_onboarding">OnboardingActivity</string>
+    <string name="onboarding_welcome">Bem vindo ao Engage Experience, aplicativo de teste do serviço In Loco Engage.</string>
+    <string name="onboarding_no_account">Receba exemplos de notificações push ao visitar estabelecimentos.</string>
+    <string name="onboarding_with_account">Crie campanhas e teste suas notificações push ao visitar estabelecimentos escolhidos por você.</string>
+    <string name="onboarding_notification">Após a visita, aguarde um momento, a notificação chegará em alguns minutos.</string>
+    <string name="onboarding_finish">Parabéns, você está pronto para utilizar o In Loco Engage.</string>
+    <string name="skip">PULAR</string>
+    <string name="done">CONCLUIR</string>
+
+    <string name="your_notifications">Suas notificações serão exibidas aqui. Deslize para baixo para atualizar.</string>
+    <string name="location_refused">A aplicação não recebeu permissão para usar a localização, e pode não funcionar corretamente.</string>
+
+    <string name="menu_settings">Sobre</string>
+    <string name="menu_troubleshooting">Solução de problemas</string>
+
+    <string name="title_activity_settings">IN LOCO ENGAGE</string>
+    <string name="about">ABOUT</string>
+    <string name="app_version">Versão do aplicativo</string>
+    <string name="mad_id">ID de Publicidade</string>
+    <string name="app_id">ID da Aplicação</string>
+    <string name="privacy">Privacidade</string>
+    <string name="terms">Termos de uso</string>
+    <string name="contact">Contato</string>
+    <string name="copied">Copiado para o clipboard.</string>
+
+    <string name="title_activity_troubleshooting">SOLUÇÃO DE PROBLEMAS</string>
+    <string name="verify_requirements">Por favor, verifique se as configurações abaixo estão configuradas corretamente.</string>
+    <string name="device_registered">Dispositivo registrado</string>
+    <string name="location_enabled">Localização ativa</string>
+    <string name="wifi_activated">Wi-Fi ativo</string>
+    <string name="internet_available">Internet disponível</string>
+    <string name="permissions_accepted">Permissões aceitas</string>
+    <string name="contact_us">Caso o aplicativo ainda apresente problemas, entre em contato conosco.</string>
+    <string name="contact_us_btn">Entrar em contato</string>
+
+    <string name="sign_in_succeeded_message_format">"Sign-in with %s succeeded."</string>
+    <string name="sign_in_canceled_message_format">"Sign-in with %s canceled."</string>
+    <string name="sign_in_failure_dialog_title">Sign-In Error</string>
+    <string name="sign_in_failure_message_format">Sign-in with %1$s failed.\n%2$s</string>
+</resources>

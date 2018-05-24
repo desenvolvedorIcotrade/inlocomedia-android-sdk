@@ -1,2 +1,4 @@
 include ':inlocomedia-ads-sample'
 project(":inlocomedia-ads-sample").projectDir = new File("samples/inlocomedia-ads-sample")
+include ':inlocomedia-engage-sample'
+project(":inlocomedia-engage-sample").projectDir = new File("samples/inlocomedia-engage-sample")

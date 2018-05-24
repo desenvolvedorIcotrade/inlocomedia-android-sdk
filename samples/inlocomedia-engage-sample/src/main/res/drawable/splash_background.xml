@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Currently unused. Should be used but I still do not know how to do what I need to using a layer-list-->
+    <item android:drawable="@color/colorPrimary"/>
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/splash_logo"/>
+    </item>
+
+</layer-list>

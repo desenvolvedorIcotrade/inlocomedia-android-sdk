@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ config.xml
+  ~ Copyright (c) 2017 InLocoMedia.
+  ~ All rights reserved.
+  -->
+
+<resources>
+    <!-- Engagement Application credentials. Used in the tests and on InLocoMedia-Engagement-Sample project -->
+    <string name="application_id">"ba14a6a5-5242-40aa-ad2f-1f77ee778f78"</string>
+    <bool name="inloco_debug_enabled">true</bool>
+    <bool name="inloco_logs_enabled">true</bool>
+
+</resources>

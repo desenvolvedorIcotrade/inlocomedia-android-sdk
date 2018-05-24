@@ -1,0 +1,72 @@
+/*
+ * build.gradle
+ * Copyright (c) 2017 InLocoMedia.
+ * All rights reserved.
+ */
+project.ext.moduleName = "engagement"
+apply from: '../samples-shared-build.gradle'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.google.gms:google-services:3.0.0'
+    }
+}
+
+ext {
+    engageApplicationId = getPropertyIfAvailable('ENGAGE_SAMPLE_APPLICATION_ID')
+}
+
+android {
+
+    defaultConfig {
+        applicationId "${androidBuildConfig.packageId}.${moduleName}.sample"
+        // Variables to be accessed in BuildConfig
+        buildConfigField "String", "ENGAGE_APPLICATION_ID", engageApplicationId
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    productFlavors {
+        firebase {}
+    }
+
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+}
+
+
+dependencies {
+
+    compile "com.inlocomedia.android:android-sdk-engagement:$libraries.inLocoMediaSdkVersion"
+
+    compile "com.google.android.gms:play-services-gcm:$libraries.googlePlayServicesVersion"
+    compile "com.google.android.gms:play-services-location:$libraries.googlePlayServicesVersion"
+    firebaseCompile "com.google.firebase:firebase-messaging:$libraries.googlePlayServicesVersion"
+
+    compile "com.android.support:appcompat-v7:$libraries.androidSupportVersion"
+    compile "com.android.support:support-v13:$libraries.androidSupportVersion"
+
+    // Amazon dummy project used the dependencies below
+    compile 'com.google.code.gson:gson:2.7'
+    compile "com.android.support:appcompat-v7:$libraries.androidSupportVersion"
+    compile "com.android.support:support-v13:$libraries.androidSupportVersion"
+    compile 'com.android.support:multidex:1.0.1'
+    compile "com.android.support:design:$libraries.androidSupportVersion"
+}
+
+def getPropertyIfAvailable(property) {
+    if (hasProperty(property)) {
+        return "\"${getProperty(property)}\""
+    } else {
+        println "Missing property " + property + ". You need to include your application id on your gradle.properties file to run this project."
+    }
+    return "\"Missing Key. // You need to include your application id on your gradle.properties file to run this project\""
+}
+
+apply plugin: 'com.google.gms.google-services'

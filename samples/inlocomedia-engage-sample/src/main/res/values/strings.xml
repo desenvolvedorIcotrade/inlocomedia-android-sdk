@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">In Loco Engage</string>
+
+    <string name="use_account">USE MY ACCOUNT</string>
+    <string name="without_account">TRY WITHOUT ACCOUNT</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="title_activity_onboarding">OnboardingActivity</string>
+    <string name="onboarding_welcome">Welcome to Engage Experience, a test application from the In Loco Engage service.</string>
+    <string name="onboarding_no_account">Receive push notification examples upon visiting places.</string>
+    <string name="onboarding_with_account">Create campaigns and test your push notifications upon visiting places chosen by you.</string>
+    <string name="onboarding_notification">After the visit, please wait a moment - the notification will arrive shortly.</string>
+    <string name="onboarding_finish">Congratulations, you are now ready to use In Loco Engage.</string>
+    <string name="skip">SKIP</string>
+    <string name="done">DONE</string>
+
+    <string name="your_notifications">Your notifications will be displayed here. Swipe down to refresh.</string>
+    <string name="location_refused">The application did not receive location permission. It may not work properly.</string>
+
+    <string name="menu_settings">About</string>
+    <string name="menu_troubleshooting">Troubleshooting</string>
+
+    <string name="title_activity_settings">IN LOCO ENGAGE</string>
+    <string name="about">ABOUT</string>
+    <string name="app_version">Application version</string>
+    <string name="mad_id">Mobile Advertising ID</string>
+    <string name="app_id">Application ID</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="terms">Terms of service</string>
+    <string name="contact">Contact us</string>
+    <string name="copied">Copied to clipboard.</string>
+
+    <string name="title_activity_troubleshooting">TROUBLESHOOTING</string>
+    <string name="verify_requirements">Please verify that all requirements below are properly configured.</string>
+    <string name="device_registered">Device registered</string>
+    <string name="location_enabled">Location enabled</string>
+    <string name="wifi_activated">Wi-Fi activated</string>
+    <string name="internet_available">Internet available</string>
+    <string name="permissions_accepted">Permissions accepted</string>
+    <string name="contact_us">If you\'re still encountering problems, please contact us.</string>
+    <string name="contact_us_btn">Contact us</string>
+
+    <string name="sign_in_succeeded_message_format">"Sign-in with %s succeeded."</string>
+    <string name="sign_in_canceled_message_format">"Sign-in with %s canceled."</string>
+    <string name="sign_in_failure_dialog_title">Sign-In Error</string>
+    <string name="sign_in_failure_message_format">Sign-in with %1$s failed.\n%2$s</string>
+</resources>
