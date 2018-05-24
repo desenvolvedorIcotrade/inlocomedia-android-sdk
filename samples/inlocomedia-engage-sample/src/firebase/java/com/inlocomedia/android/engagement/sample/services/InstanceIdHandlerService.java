@@ -9,7 +9,6 @@ package com.inlocomedia.android.engagement.sample.services;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.google.android.gms.iid.InstanceID;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.FirebaseInstanceIdService;
 import com.inlocomedia.android.engagement.InLocoEngagement;
@@ -18,9 +17,6 @@ import com.inlocomedia.android.engagement.request.FirebaseDeviceRegisterRequest;
 import com.inlocomedia.android.engagement.request.RegisterDeviceCallback;
 import com.inlocomedia.android.engagement.request.RegisterDeviceRequest;
 import com.inlocomedia.android.engagement.sample.BuildConfig;
-import com.inlocomedia.android.engagement.sample.EngageApplication;
-import com.inlocomedia.android.engagement.sample.utils.PushProviderToken;
-import com.inlocomedia.android.engagement.sample.utils.PushProvidersManager;
 
 public class InstanceIdHandlerService extends FirebaseInstanceIdService {
 

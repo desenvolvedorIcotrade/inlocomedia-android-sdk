@@ -11,7 +11,7 @@ InLocoMedia SDK GeoEngagement Sample Project
 	```
 		ENGAGE_SAMPLE_APPLICATION_ID xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 	```
-	* If you do not have a gradle.properties file, fill free to update directly on the engage build.config file located at *inlocomedia-android-sdk-public/samples/inlocomedia-engage-sample/build.gradle*. You just need to change the following line
+	* If you do not have a gradle.properties file, feel free to update directly on the engage build.config file located at *inlocomedia-android-sdk-public/samples/inlocomedia-engage-sample/build.gradle*. You just need to change the following line
 	```
 	ext {
     	<!-- engageApplicationId = getPropertyIfAvailable('ENGAGE_SAMPLE_APPLICATION_ID') Replace this --> 
