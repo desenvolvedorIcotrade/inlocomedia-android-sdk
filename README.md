@@ -11,6 +11,7 @@ How to get started
 - To integrate the SDK to your app, and start to display ads, check our Android [documentation].
 
 Latest Updates
+app
 ===
 Check our [changelog]
 
