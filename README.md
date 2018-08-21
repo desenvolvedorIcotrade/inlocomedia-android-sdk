@@ -1,4 +1,4 @@
-![Alt logoImage][logo]
+![<img class="irc_mi" src="http://rockeirasempre.zip.net/images/rockeirodescontrolado.gif" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="200" height="155" style="margin-top: 99px;" alt="Resultado de imagem para gif rockeiro">][logo]
 
 InLocoMedia Android SDK
 ===
