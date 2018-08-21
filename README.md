@@ -1,4 +1,51 @@
-<img class="irc_mi" src="http://rockeirasempre.zip.net/images/rockeirodescontrolado.gif" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="200" height="155" style="margin-top: 99px;" alt="Resultado de imagem para gif rockeiro">[logo]
+<img class="irc_mi" src="http://rockeirasempre.zip.net/images/rockeirodescontrolado.gif" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="200" height="155" style="margin-top: 99px;" alt="Resultado de imagem para gif rockeiro">[logo]<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plataforma de anúncios In Loco Media">
+    <meta name="author" content="Ubee Desenvolvimento de Software S/A">
+
+    <title>In Loco Media</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" media="screen" href="/assets/static_pages-8fafe23789eaa1156ed869610c2f8c5b90c9b00263cdc6f0946a8942a9ad36ae.css" />
+    <!-- /css -->
+  </head>
+
+  <body>
+    <div class="container">
+  <div class="textos">
+    <h1>
+      Ooops!
+    </h1>
+    <br />
+    <h2>
+      A página que você procura não foi encontrada.
+    </h2>
+    <br />
+    <p>
+      <a href="javascript:window.history.back();">
+        Retornar à página anterior
+      </a>
+       - 
+      <a href="http://www.inlocomedia.com">
+        Ir para a página inicial do 
+        <span class="logo-ubee">
+          <img src="/assets/static/logo_inlocomedia_small-4b59c9c30f89ee7d6e32a13a7730a64eb91215548494d1018230540d09d042e4.png" alt="Logo inlocomedia small" />
+        </span>
+      </a>
+    </p>
+    <br />
+  </div>
+
+  <div class="ubento">
+    <img src="/assets/static/ubento_not_found-6bb8eb1af8f817725765dc7cc3efe4b4f75be523fa88735c87350c833afaf9bd.png" alt="Ubento not found" />
+  </div>
+</div>
+
+  </body>
+</html>
 
 InLocoMedia Android SDK
 ===
