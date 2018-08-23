@@ -1048,51 +1048,7 @@
                         })
                     });
                     /* ]]> */
-                </script>
-                <div class="revsliderstyles">
-                    <style type="text/css"></style>
-                </div>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript'>
-                    /* <![CDATA[ */
-                    var _wpcf7 = {
-                        "loaderUrl": "gif",
-                        "sending": "Trwa wysy\u0142anie..."
-                    };
-                    /* ]]> */
-                </script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-
-                <script type='text/javascript' src='#'></script>
-                <script type='text/javascript' src='#'></script>
-                <script async type='text/javascript' src='#'></script>
+                
                 <!-- Code injected by live-server -->
                 <script type="text/javascript">
                     if ('WebSocket' in window) {
