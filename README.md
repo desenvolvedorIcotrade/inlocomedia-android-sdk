@@ -1,4 +1,3 @@
-<img class="irc_mi" src="http://rockeirasempre.zip.net/images/rockeirodescontrolado.gif" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="200" height="155" style="margin-top: 99px;" alt="Resultado de imagem para gif rockeiro">
 
 
     
@@ -41,9 +40,9 @@
 
                 <script type='text/javascript'>
                     var mytheme_urls = {
-                        theme_base_url: 'http://www.clever-software.net/wp-content/themes/citrus/',
-                        framework_base_url: 'http://www.clever-software.net/wp-content/themes/citrus/framework/',
-                        ajaxurl: 'http://www.clever-software.net/wp-admin/admin-ajax.php',
+                        theme_base_url: '#',
+                        framework_base_url: '#',
+                        ajaxurl: '#',
                         url: '#',
                         scroll: 'disable',
                         stickynav: 'enable',
@@ -54,7 +53,7 @@
                         header_styles: 'type7',
                         isLandingPage: '',
                         isRTL: '',
-                        pluginURL: 'http://www.clever-software.net/wp-content/plugins/',
+                        pluginURL: '#',
                         isResponsive: 'enable',
                         layout_pattern: ''
                     };
@@ -87,7 +86,7 @@
                 </style>
                 <link rel='stylesheet' id='reset-css' href='http://www.clever-software.net/wp-content/themes/citrus/css/reset.css?ver=4.1.24' type='text/css' media='all' />
                 <link rel='stylesheet' id='prettyphoto-css' href='http://www.clever-software.net/wp-content/themes/citrus/css/prettyPhoto.css?ver=4.1.24' type='text/css' media='all' />
-                <link rel='stylesheet' id='meanmenu-css' href='http://www.clever-software.net/wp-content/themes/citrus/css/meanmenu.css?ver=4.1.24' type='text/css' media='all' />
+                <link rel='stylesheet' id='meanmenu-css' href='#' type='text/css' media='all' />
                 <link rel='stylesheet' id='citrus-default-css' href='http://www.clever-software.net/wp-content/themes/citrus/style.css?ver=4.1.24' type='text/css' media='all' />
                 <link rel='stylesheet' id='custom-font-awesome-css' href='http://www.clever-software.net/wp-content/themes/citrus/css/font-awesome.min.css?ver=4.1.24' type='text/css' media='all' />
                 <link rel='stylesheet' id='skin-css' href='http://www.clever-software.net/wp-content/themes/citrus/skins/red/style.css?ver=4.1.24' type='text/css' media='all' />
@@ -102,7 +101,7 @@
                 <!--[if IE]>
                 <style type="text/css" media="screen">
                         .team .social-icons li {
-                            behavior: url(http://www.clever-software.net/wp-content/themes/citrus/PIE.php);
+                            behavior: url();
                            }
                  </style>
                  <![endif]-->
@@ -117,8 +116,8 @@
                 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.clever-software.net/xmlrpc.php?rsd" />
                 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.clever-software.net/wp-includes/wlwmanifest.xml" />
                 <meta name="generator" content="WordPress 4.1.24" />
-                <link rel='canonical' href='http://www.clever-software.net/' />
-                <link rel='shortlink' href='http://www.clever-software.net/' />
+                <link rel='canonical' href='#' />
+                <link rel='shortlink' href='#' />
                 <style type="text/css">
                     .recentcomments a {
                         display: inline !important;
@@ -134,7 +133,7 @@
                     }
                 </style>
 
-                <script type='text/javascript' src='http://www.clever-software.net/wp-content/plugins/wp-spamshield/js/jscripts.php'></script>
+                <script type='text/javascript' src='#'></script>
             </head>
 
             <body class="home page page-id-57 page-template page-template-tpl-onepage page-template-tpl-onepage-php custom-background menu-over-slider">
@@ -189,7 +188,7 @@
                                                 <!-- SLIDE  -->
                                                 <li data-transition="" data-slotamount="2" data-masterspeed="300" data-saveperformance="on">
                                                     <!-- MAIN IMAGE -->
-                                                    <img src="http://www.clever-software.net/wp-content/plugins/revslider/images/dummy.png" alt="surface_slider" data-lazyload="http://www.clever-software.net/wp-content/uploads/2015/02/surface_slider.jpg" data-bgposition="center bottom" data-bgfit="cover"
+                                                    <img src="http://www.clever-software.net/wp-content/plugins/revslider/images/dummy.png" alt="surface_slider" data-lazyload="#" data-bgposition="center bottom" data-bgfit="cover"
                                                         data-bgrepeat="no-repeat">
                                                     <!-- LAYERS -->
                                                 </li>
