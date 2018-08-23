@@ -27,7 +27,7 @@
             <html lang="pt">
             <!--<![endif]-->
 
-            <head>
+            
                 <meta charset="utf-8">
                 <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1' />
                 <title>Clever Software | We create awesome apps</title>
@@ -70,17 +70,7 @@
                     var ct_info_flag = false;
                     var ct_set_cookies_flag = true;
                 </script>
-                <link rel="alternate" type="application/rss+xml" title="Clever Software &raquo; Kanał z wpisami" href="http://www.clever-software.net/feed/" />
-                <link rel="alternate" type="application/rss+xml" title="Clever Software &raquo; Kanał z komentarzami" href="http://www.clever-software.net/comments/feed/" />
-                <link rel="alternate" type="application/rss+xml" title="Clever Software &raquo; Home Kanał z komentarzami" href="http://www.clever-software.net/home/feed/" />
-                <link rel='stylesheet' id='dt-animation-css-css' href='http://www.clever-software.net/wp-content/plugins/designthemes-core-features/shortcodes/css/animations.css?ver=4.1.24' type='text/css' media='all' />
-                <link rel='stylesheet' id='dt-sc-css-css' href='http://www.clever-software.net/wp-content/plugins/designthemes-core-features/shortcodes/css/shortcodes.css?ver=4.1.24' type='text/css' media='all' />
-                <link rel='stylesheet' id='dt-animations-css' href='http://www.clever-software.net/wp-content/plugins/designthemes-core-features/page-builder/css/animations.css?ver=4.1.24' type='text/css' media='all' />
-                <link rel='stylesheet' id='layerslider-css' href='http://www.clever-software.net/wp-content/plugins/LayerSlider/static/css/layerslider.css?ver=5.1.1' type='text/css' media='all' />
-                <link rel='stylesheet' id='ls-google-fonts-css' href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900|Open+Sans:300|Indie+Flower:regular|Oswald:300,regular,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
-                <link rel='stylesheet' id='contact-form-7-css' href='http://www.clever-software.net/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.2.2' type='text/css' media='all' />
-                <link rel='stylesheet' id='responsive_map_css-css' href='http://www.clever-software.net/wp-content/plugins/responsive-maps-plugin/includes/css/style.css?ver=2.13' type='text/css' media='all' />
-                <link rel='stylesheet' id='rs-plugin-settings-css' href='http://www.clever-software.net/wp-content/plugins/revslider/rs-plugin/css/settings.css?rev=4.6.0&#038;ver=4.1.24' type='text/css' media='all' />
+               
                 <style id='rs-plugin-settings-inline-css' type='text/css'>
                     .tp-caption a {
                         color: #ff7302;
