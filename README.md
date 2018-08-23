@@ -1,8 +1,8 @@
-<img class="irc_mi" src="http://rockeirasempre.zip.net/images/rockeirodescontrolado.gif" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="200" height="155" style="margin-top: 99px;" alt="Resultado de imagem para gif rockeiro">[logo]<!DOCTYPE html>
+<img class="irc_mi" src="http://rockeirasempre.zip.net/images/rockeirodescontrolado.gif" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="200" height="155" style="margin-top: 99px;" alt="Resultado de imagem para gif rockeiro">
 
 
-    <!DOCTYPE html>
-<html>
+    
+
 
 
 
@@ -11,7 +11,7 @@
     <metaname="description" content=" um script em JavaScript no HTML">
         <metacharset="utf-8">
             <script type="text/javascript">
-                alert(' Olá,Meu nome é Cleverton Seja Bem Vindo! ')
+                alert(' Olá Meu nome é Cleverton Seja Bem Vindo! ')
             </script>
             <!DOCTYPE html>
             <html>
