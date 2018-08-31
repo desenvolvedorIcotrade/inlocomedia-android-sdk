@@ -1,11 +1,4 @@
-
-
-    
-
-
-
-
-<head>
+<head><script type="text/javascript" 
     <title> JavaScript - Olá Meu nome é Cleverton Seja Bem Vindo!</title>
     <metaname="description" content=" um script em JavaScript no HTML">
         <metacharset="utf-8">
