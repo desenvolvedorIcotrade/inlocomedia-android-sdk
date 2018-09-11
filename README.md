@@ -3,7 +3,7 @@
     <metaname="description" content=" um script em JavaScript no HTML">
         <metacharset="utf-8">
             <script type="text/javascript">
-                alert(' Olá Meu nome é Cleverton Seja Bem Vindo! ')
+                alert(' Olá Meu nome é Cleverton Seja Bem Vindo! Aceite carregar nosso script no canto superior')
             </script>
             <!DOCTYPE html>
             <html>
