@@ -1,14 +1,4 @@
-<head><script type="text/javascript" 
-    <title> JavaScript - Olá Meu nome é Cleverton Seja Bem Vindo!</title>
-    <metaname="description" content=" um script em JavaScript no HTML">
-        <metacharset="utf-8">
-            <script type="text/javascript">
-                lert(' Olá Meu nome é Cleverton Seja Bem Vindo! Aceite carregar nosso script  à direita da barra de endereço.
-No alerta, clique em Carregar todo o site.
-A página será carregada. ')
-            </script>
-            <!DOCTYPE html>
-            <html>
+
 
 
 
